@@ -68,6 +68,10 @@ img{
 }
 
 @media (max-width:600px) {
+    body{
+        width: 100%;
+        overflow: hidden;
+    }
     h1{
         width: 120%;
     }
