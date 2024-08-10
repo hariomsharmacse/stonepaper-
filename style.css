@@ -67,3 +67,55 @@ img{
     border-radius: 1rem;
 }
 
+@media (max-width:600px) {
+    h1{
+        background-color: #081b31;
+        color: white;
+        height: 5rem;
+        line-height: 5rem;
+        width: 120%;
+    }
+    
+    .choice{
+        height: 10px;
+        width: 10px;
+        margin-left: 90px;
+    }
+    
+    
+    img{
+        height: 100px;
+        width: 100px;
+    }
+
+    
+    .score-board{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 1rem;
+        margin-top: 4rem;
+        gap: 5rem;
+        margin-left: 7rem;
+    }
+    
+    #user-score, #comp-score{
+        font-size: 3rem;
+    }
+    
+    .msg-container{
+        margin-top: 5rem;
+        margin-left: 5rem;
+    }
+    
+    #msg{
+        background-color: #081b31;
+        color: #ffff;
+        font-size: 1rem;
+        display: inline;
+        padding: 1rem;
+        border-radius: 1rem;
+    }
+    
+}
+
